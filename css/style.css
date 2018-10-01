@@ -60,10 +60,10 @@ textarea {}
 
 /* Layout */
 .ba-container {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 210px;
+	padding-right: 210px;
 	color: white;
-	min-width: 1250px;
+	max-width: 1250px;
 }
 
 main {
@@ -84,6 +84,12 @@ main {
 	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
 	font-size: 14px;
 	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
+
+.ba-list a:hover{
+	color: #9C2551;
 }
 
 .ba-header-bar {
@@ -94,11 +100,6 @@ main {
 
 .ba-list li {
 	display: inline-block;
-}
-
-.ba-list a {
-	text-decoration: none;
-	color: white;
 }
 
 .ba-button-head {
@@ -156,6 +157,7 @@ main {
 	background: #AE7B67;
 }
 
-.ba-intro u{
+.ba-intro u:hover{
 	font-weight: 700;
+	color: #9C2551
 }
