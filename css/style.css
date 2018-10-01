@@ -79,6 +79,13 @@ main {
 	right: 0;
 }
 
+.ba-list a{
+	padding-right: 25px;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	font-size: 14px;
+	font-weight: 700;
+}
+
 .ba-header-bar {
 	display: flex;
 	justify-content: space-between;
@@ -95,8 +102,8 @@ main {
 }
 
 .ba-button-head {
-	background: rgba(0, 0, 0, 0);
-	border: rgba(0, 0, 0, 0);
+	background: rgba(255, 255, 255, 0);
+	border: rgba(255, 255, 255, 0);
 }
 
 .ba-container-h1{
